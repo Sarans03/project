@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/html/css/Practise.css" type="text/css"/>
+<title>Список дел</title>
+</head>
+<body>
+    <div class="container">
+        <div class="spisok">
+            <h1 >Список дел</h1>
+            <div class="form">
+            <input type="text" id="myInput" placeholder="Введите текст"></input>
+            <button class="addBtn" >Добавить</button>
+            <button class="delBtn">Очистить</button>
+            </div>
+            <div class="list">
+            <ul id="myUL" class="section">
+            </ul>
+            </div>
+            <div class="SortButtons">
+                <button id="allTasks">Все дела</button>
+                <button id="doneTasks">Выполненные</button>
+                <button id="undoneTasks">Невыполненные</button>
+            </div>
+        </div>
+        <script src="/html/js/Practise.js"></script>
+    </div>
+</body>
+</html>
